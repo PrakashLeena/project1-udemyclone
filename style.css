@@ -133,13 +133,16 @@ button{
     text-align: center;
   }
 
-  .box1{width: 90%;
+  .box1{
+    h2,h4{
+    width: 90%;
     position: absolute;
     display: block;
     top: 150%;
     margin: 10px auto;
     text-align: center;
 }
+  }
 
 .box2{
     width: 90%;
@@ -182,7 +185,6 @@ button{
     height: auto;
     display: block;
     margin: auto;
-    z-index: 0;
   }
 }
 
