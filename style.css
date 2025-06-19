@@ -124,7 +124,7 @@ button{
   .box1{width: 90%;
     position: absolute;
     display: block;
-    top: 400%;
+    top: 100%;
     margin: 10px auto;
     text-align: center;
 }
@@ -133,7 +133,7 @@ button{
     width: 90%;
     position: absolute;
     display: block;
-    top: 300%;
+    top: 50%;
     margin: 10px auto;
     text-align: center;
     z-index: 1;
@@ -143,9 +143,9 @@ button{
 
   .box3{
     width: 90%;
-    position: static;
+    position: absolute;
     display: block;
-    top: 300%;
+    top: 50%;
     margin: 10px auto;
     text-align: center;
   }
