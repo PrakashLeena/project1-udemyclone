@@ -146,8 +146,9 @@ button{
 
   .box1{
     h2,h4{
-    width: 70%;
-    height: 100%;
+    width: 90px;
+    bottom: 90px;
+    height: 10px;
     border-color: white;
     color: black;
     border-style: solid;
