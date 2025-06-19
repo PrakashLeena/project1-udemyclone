@@ -113,7 +113,6 @@ button{
   button,
   .header,
   .names,
-  .box1,
   .box2,
   .box3 {
     width: 90%;
@@ -122,6 +121,15 @@ button{
     margin: 10px auto;
     text-align: center;
   }
+
+  .box1{width: 90%;
+    position: static;
+    display: block;
+    bottom: auto;
+    margin: 10px auto;
+    text-align: center;
+}
+
 
   input {
     width: 90%;
