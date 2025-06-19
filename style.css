@@ -124,17 +124,17 @@ button{
   .box1{width: 90%;
     position: absolute;
     display: block;
-    top: 90%;
+    top: 400%;
     margin: 10px auto;
     text-align: center;
-    z-index: 1;
+    z-index: 0;
 }
 
 .box2{
     width: 90%;
     position: absolute;
     display: block;
-    bottom: 10%;
+    top: 300%;
     margin: 10px auto;
     text-align: center;
     z-index: 1;
@@ -146,6 +146,7 @@ button{
     width: 90%;
     position: static;
     display: block;
+    top: 300%;
     margin: 10px auto;
     text-align: center;
   }
