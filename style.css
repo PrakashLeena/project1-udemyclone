@@ -35,10 +35,10 @@ h1,h3 {
 }}
 
 nav{
-    a{
+    button{
         background-color: brown;
         color: black;
-        padding: 2px;
+        padding: 4px;
         margin: 2px;
         border-radius: 5px;
         cursor: pointer;
