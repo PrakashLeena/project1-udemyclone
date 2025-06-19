@@ -97,9 +97,6 @@ button{
     
 }
 
-
-
-
 /*MOBILE STYLES*/
 @media screen and (max-width: 480px) {
   nav,
@@ -134,7 +131,7 @@ button{
   }
 
   .names {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .header ul {
@@ -144,11 +141,10 @@ button{
   img {
     max-width: 100%;
     height: auto;
-    display: inline-block;
+    display: block;
     margin: auto;
   }
 }
-
 
 
 
