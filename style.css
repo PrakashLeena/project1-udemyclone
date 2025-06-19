@@ -130,11 +130,10 @@ img{
   .box2,
   .box3 {
     width: 90%;
-    height: 90%;
     border-color: white;
     border-style: solid;
     border: 5px;
-    position: absolute;
+    position: static;
     display: block;
     margin: 10px auto;
     text-align: center;
