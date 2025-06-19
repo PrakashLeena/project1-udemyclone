@@ -132,12 +132,14 @@ button{
 
 .box2{
     width: 90%;
-    position: static;
+    position: absolute;
     display: block;
+    bottom: 100%;
     margin: 10px auto;
     text-align: center;
     z-index: 1;
-  }
+}
+    
 
 
   .box3{
