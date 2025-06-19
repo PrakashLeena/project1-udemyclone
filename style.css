@@ -117,21 +117,30 @@ img{
   a,
   button,
   .header,
-  .names,
+  .names{
+    width: 90%;
+    position: static;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+
   .box1,
   .box2,
   .box3 {
     width: 90%;
     height: 90%;
-    position: static;
-    display: block;
+    border-color: white;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border: 5%;
+    position: absolute;
+    display: inline-block;
     margin: 10px auto;
     text-align: center;
     z-index: 2;
-    border: 5px;
-    border-color: white;
-    border-style: solid;
-
   }
 
   input {
