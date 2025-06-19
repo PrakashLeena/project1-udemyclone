@@ -146,8 +146,8 @@ button{
 
   .box1{
     h2,h4{
-    width: 90%;
-    height: 90%;
+    width: 300%;
+    height: 300%;
     border-color: white;
     background-color: white;
     color: black;
@@ -163,8 +163,8 @@ button{
 
   .box2{
     h1{
-    width: 200%;
-    height: 200%;
+    width: 450%;
+    height: 150%;
     border-color: white;
     background-color: white;
     color: black;
