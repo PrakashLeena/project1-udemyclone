@@ -112,9 +112,8 @@ button{
   a,
   button,
   .header,
-  .names,
-  .box2,
-  .box3 {
+  .names
+   {
     width: 90%;
     position: static;
     display: block;
@@ -130,6 +129,24 @@ button{
     text-align: center;
     z-index: 1;
 }
+
+.box2{
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 1;
+  }
+
+
+  .box3{
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
 
 
   input {
