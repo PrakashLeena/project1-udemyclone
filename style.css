@@ -120,7 +120,7 @@ img{
   .names{
     width: 90%;
     position: static;
-    display: inline-block;
+    display: block;
     margin: 10px auto;
     text-align: center;
   }
@@ -137,7 +137,7 @@ img{
     border-style: solid;
     border: 5%;
     position: absolute;
-    display: inline-block;
+    display: block;
     margin: 10px auto;
     text-align: center;
     z-index: 2;
@@ -151,7 +151,7 @@ img{
   }
 
   .names {
-    flex-direction: row;
+    flex-direction:column;
   }
 
   .header ul {
@@ -163,6 +163,7 @@ img{
     height: auto;
     display: inline-block;
     margin: auto;
+    z-index: 0;
   }
 }
 
