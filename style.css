@@ -7,13 +7,13 @@ nav {
     color: black;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     nav{
         flex-basis: 40%;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     nav{
         h1{
         flex-basis: 40%;
@@ -21,7 +21,7 @@ nav {
 }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     nav{
         h3{
         flex-basis: 40%;
@@ -38,13 +38,13 @@ input{
     position: absolute; right: 550px; top: 15px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     input{
         flex-basis: 40%;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     ul{
         flex-basis: 40%;
     }
@@ -55,20 +55,20 @@ li {
     display: inline;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     li{
         flex-basis: 40%;
     }
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     hr{
         flex-basis: 40%;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     a{
         flex-basis: 40%;
     }
@@ -79,7 +79,7 @@ h1 {
     display: inline;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     h1{
         flex-basis: 40%;
     }
@@ -89,7 +89,7 @@ h3{
     display: inline;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     h3{
         flex-basis: 40%;
     }
@@ -102,7 +102,7 @@ h3{
     cursor: pointer;
 }}
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .header{
         flex-basis: 40%;
     }
@@ -115,7 +115,7 @@ h3{
     justify-content: space-around;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .names{
         flex-basis: 40%;
     }
@@ -130,7 +130,7 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     button{
         flex-basis: 40%;
     }
@@ -151,14 +151,14 @@ button{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .box1{
         h2{
         flex-basis: 40%;
     }
 }}
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .box1{
         h4{
         flex-basis: 40%;
@@ -180,7 +180,7 @@ button{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .box2{
         h1{
         flex-basis: 40%;
@@ -204,7 +204,7 @@ button{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     .box3{
         h2{
         flex-basis: 40%;
@@ -213,7 +213,7 @@ button{
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:4800px){
     .box3{
         h6{
         flex-basis: 40%;
@@ -223,14 +223,14 @@ button{
 
 
 img{
-    @media screen and (max-width:800px){
+    @media screen and (max-width:480px){
     img{
         flex-basis: 40%;
     }
 }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:480px){
     p{
         flex-basis: 40%;
     }
