@@ -97,6 +97,9 @@ button{
     
 }
 
+
+
+
 /*MOBILE STYLES*/
 @media screen and (max-width: 480px) {
   nav,
@@ -112,30 +115,15 @@ button{
   a,
   button,
   .header,
-  .names{
+  .names,
+  .box1,
+  .box2,
+  .box3 {
     width: 90%;
     position: static;
     display: block;
     margin: 10px auto;
     text-align: center;
-  }
-
-
-  .box1,
-  .box2,
-  .box3 {
-    width: 90%;
-    height: 10%;
-    border-color: white;
-    background-color: white;
-    color: black;
-    border-style: solid;
-    border: 5%;
-    position: absolute;
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    z-index: 2;
   }
 
   input {
@@ -146,7 +134,7 @@ button{
   }
 
   .names {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .header ul {
@@ -158,7 +146,6 @@ button{
     height: auto;
     display: inline-block;
     margin: auto;
-    z-index: 0;
   }
 }
 
