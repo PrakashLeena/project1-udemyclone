@@ -157,7 +157,7 @@ button{
     width: 90%;
     position: absolute;
     display: block;
-    top: 250%;
+    top: 100%;
     margin: 10px auto;
     text-align: center;
   }
