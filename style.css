@@ -123,7 +123,7 @@ button{
   }
 
   .box1{width: 90%;
-    position: static;
+    position: absolute;
     display: block;
     bottom: 100%;
     margin: 10px auto;
