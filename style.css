@@ -99,14 +99,37 @@ button{
 
 /*MOBILE STYLES*/
 @media screen and (max-width: 480px) {
-  nav,
-  input,
-  ul,
-  li,
+  nav{
+    h1,h3{
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  }
+
+
+  input{
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+
+  ul,li{
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align:justify;
+  }
+
+
   h1,
   h3,
-  h2,
-  h4,
   h6,
   p,
   a,
@@ -121,9 +144,8 @@ button{
   }
 
 
-  .box1,
-  .box2,
-  .box3 {
+  .box1{
+    h2,h4{
     width: 90%;
     height: 90%;
     border-color: white;
@@ -136,17 +158,45 @@ button{
     margin: 10px auto;
     text-align: center;
     z-index: 2;
-  }
+  }}
 
-  input {
-    width: 90%;
-    right: auto;
-    top: auto;
-    position: static;
-  }
+
+  .box2{
+    h1{
+    width: 200%;
+    height: 200%;
+    border-color: white;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border: 5%;
+    position: absolute;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 2;
+  }}
+
+
+  .box3{
+    h2,h6{
+    width: 250%;
+    height: 250%;
+    border-color: white;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border: 5%;
+    position: absolute;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    z-index: 2;
+  }}
+
 
   .names {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .header ul {
