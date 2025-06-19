@@ -97,6 +97,11 @@ button{
     
 }
 
+
+img{
+    z-index: 0;
+}
+
 /*MOBILE STYLES*/
 @media screen and (max-width: 480px) {
   nav,
@@ -117,10 +122,16 @@ button{
   .box2,
   .box3 {
     width: 90%;
+    height: 90%;
     position: static;
     display: block;
     margin: 10px auto;
     text-align: center;
+    z-index: 2;
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+
   }
 
   input {
