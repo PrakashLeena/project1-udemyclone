@@ -13,6 +13,43 @@ nav {
     }
 }
 
+@media screen and (max-width:800px){
+    nav{
+        h1{
+        flex-basis: 40%;
+    }
+}
+}
+
+@media screen and (max-width:800px){
+    nav{
+        h3{
+        flex-basis: 40%;
+    }
+}
+}
+
+input{
+    display: inline-block;
+    width: 800px;
+    height: 40px;
+    border-radius: 17px;
+    position: absolute; right: 550px; top: 15px;
+}
+
+@media screen and (max-width:800px){
+    input{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:800px){
+    ul{
+        flex-basis: 40%;
+    }
+}
+
+
 li {
     display: inline;
 }
@@ -154,17 +191,5 @@ img{
 }
 
 
-input{
-    display: inline-block;
-    width: 800px;
-    height: 40px;
-    border-radius: 17px;
-    position: absolute; right: 550px; top: 15px;
-}
 
-@media screen and (max-width:800px){
-    input{
-        flex-basis: 40%;
-    }
-}
 
