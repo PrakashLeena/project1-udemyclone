@@ -143,6 +143,7 @@ button{
     height: auto;
     display: block;
     margin: auto;
+    z-index: 0;
   }
 }
 
