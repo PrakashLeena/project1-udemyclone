@@ -29,6 +29,7 @@ nav {
 }
 }
 
+
 input{
     display: inline-block;
     width: 800px;
@@ -59,6 +60,20 @@ li {
         flex-basis: 40%;
     }
 }
+
+
+@media screen and (max-width:800px){
+    hr{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:800px){
+    a{
+        flex-basis: 40%;
+    }
+}
+
 
 h1 {
     display: inline;
@@ -138,9 +153,18 @@ button{
 
 @media screen and (max-width:800px){
     .box1{
+        h2{
         flex-basis: 40%;
     }
-}
+}}
+
+@media screen and (max-width:800px){
+    .box1{
+        h4{
+        flex-basis: 40%;
+    }
+}}
+
 
 .box2{
     border: 5px;
@@ -158,9 +182,13 @@ button{
 
 @media screen and (max-width:800px){
     .box2{
+        h1{
         flex-basis: 40%;
     }
 }
+}
+
+
 
 .box3{
     border: 5px;
@@ -178,17 +206,37 @@ button{
 
 @media screen and (max-width:800px){
     .box3{
+        h2{
+        flex-basis: 40%;
+    }
+}
+}
+
+
+@media screen and (max-width:800px){
+    .box3{
+        h6{
+        flex-basis: 40%;
+    }
+}
+}
+
+
+img{
+    @media screen and (max-width:800px){
+    img{
+        flex-basis: 40%;
+    }
+}
+}
+
+@media screen and (max-width:800px){
+    p{
         flex-basis: 40%;
     }
 }
 
-img{
-    @media screen and (max-width:800px){
-    input{
-        flex-basis: 40%;
-    }
-}
-}
+
 
 
 
