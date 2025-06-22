@@ -1,0 +1,194 @@
+*{padding: 0;
+margin: 0;}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    color: black;
+}
+
+
+input{
+    display: inline-block;
+    width: 800px;
+    height: 40px;
+    border-radius: 17px;
+    position: absolute; right: 550px; top: 15px;
+}
+
+
+li {
+    display: inline;
+}
+
+
+h1,h3 {
+    display: inline;
+}
+
+
+.header{ul {
+    display: inline;
+    margin-left: 77%;
+    color: gray;
+    cursor: pointer;
+}}
+
+nav{
+    button{
+        background-color: brown;
+        color: black;
+        padding: 4px;
+        margin: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline;
+    }
+}
+
+
+.names{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+button{
+    background-color:darkorchid ;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.box1{
+    border: 5px;
+    display: inline-block;
+    border-color: white;
+    background-color:white;
+    color:black;
+    border-style: solid;
+    width: 400px;
+    height: 70px;
+    z-index: 2;
+    position: absolute;bottom: 400px; left: 100px;
+    
+}
+
+
+.box2{
+    border: 5px;
+    display: inline-block;
+    border-color: white;
+    background-color:white;
+    color:black;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    position: absolute;bottom: 100px; right: 500px;
+    
+}
+
+
+.box3{
+    border: 5px;
+    display: inline-block;
+    border-color: white;
+    background-color:white;
+    color:black;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    position: absolute;bottom: 100px; right: 350px;
+    
+}
+
+/*MOBILE STYLES*/
+@media screen and (max-width: 480px) {
+  nav,
+  input,
+  ul,
+  li,
+  h1,
+  h3,
+  h2,
+  h4,
+  h6,
+  p,
+  a,
+  button,
+  .header,
+  .names
+   {
+    width: 90%;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .box1{
+    width: 90%;
+    position: absolute;
+    display: block;
+    top: 150%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+.box2{
+    width: 90%;
+    position: absolute;
+    display: block;
+    top: 180%;
+    margin: 10px auto;
+    text-align: center;
+}
+    
+
+
+  .box3{
+    width: 90%;
+    position: absolute;
+    display: block;
+    top: 150%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+
+  input {
+    width: 90%;
+    right: auto;
+    top: auto;
+    position: static;
+  }
+
+  .names {
+    flex-direction: column;
+  }
+
+  .header ul {
+    margin-left: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
