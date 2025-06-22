@@ -29,13 +29,13 @@ h1,h3 {
 
 .header{ul {
     display: inline;
-    margin-left: 76%;
+    margin-left: 78%;
     color: gray;
     cursor: pointer;
 }}
 
 nav{
-    button{
+    a{
         background-color: brown;
         color: black;
         padding: 4px;
@@ -48,14 +48,7 @@ nav{
 
 
 .names{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-
-button{
+  button{
     background-color:darkorchid ;
     padding: 5px;
     margin: 2px;
@@ -63,6 +56,15 @@ button{
     color: black;
     cursor: pointer;
 }
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+
+
 
 
 .box1{
